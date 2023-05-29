@@ -1,6 +1,6 @@
 FROM alpine:3.14
 
-MAINTAINER Martin <610385220@ioiox.com>
+MAINTAINER Martin <610385220@qq.com>
 # 设置时区
 RUN apk add tzdata && \
     cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && \
